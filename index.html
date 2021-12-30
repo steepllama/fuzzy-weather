@@ -9,19 +9,31 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
-<body>
-
-    <header id="main" class="header">
-        <h1>Weekly Weather</h1>
-    </header>
+<br>
+<header class="jumbotron">
+    <h1 id="jumbotron">Weather DashBoard</h1>
+</header>
+<br>
+<main>
+    <div>
+        <h2 class="city-search">Search For A City:</h2>
+            <form>
+                <input type="search" id="cities" placeholder="Austin">
+                <div>    
+                    <button class="search" id="search">Search</button>
+                </div>
+            </form>
+    </div>
     <br>
-    <main>
-        <div>
-            <h3 class="city" id="city" >Search For a City:</h3>
-            <input type="text" placeholder="Austin">
-            <br>
-            <button type="button">Search</button>
-        </div>
-    </main>
-</body>
+
+    <div class="current-temp" id="current-temp">
+        <h3>Right Now:</h3>
+    </div>
+
+
+    <div class="5-day-forecast" id="forecast-cards">
+        <h3>5 Day ForeCast</h3>
+    </div>
+    
+</main>
 </html>

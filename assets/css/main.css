@@ -1,9 +1,15 @@
-.header {
+/* Universal Background */
+/* * {
+    background-color: gray;
+} */
+
+/* Header Stylying */
+.jumbotron {
     text-align: center;
-    font-weight: 200;
-    padding: 10px 0px 0px 0px;
-    background-color: blue;
-    background-image: linear-gradient(blue, purple);
-    color: wheat;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+.city-search {
+    
+}
