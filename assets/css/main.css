@@ -10,6 +10,20 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.city-search {
-    
+.search {
+    background-color: rgb(90, 190, 229);
+    color: white;
+    text-align: center;
+    display: block;
+    width: 22%;
+    padding: 0px 0px 0px 0px;
+}
+
+.current-temp {
+    border: solid 3px black;
+    position: absolute;
+    top: 120px;
+    right: 150px;
+    bottom: auto;
+    left: 400px;
 }
