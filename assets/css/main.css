@@ -1,7 +1,3 @@
-/* Universal Background */
-/* * {
-    background-color: gray;
-} */
 
 /* Header Stylying */
 .jumbotron {
@@ -26,4 +22,9 @@
     right: 150px;
     bottom: auto;
     left: 400px;
+}
+
+.week-forecast {
+    position: absolute;
+
 }
